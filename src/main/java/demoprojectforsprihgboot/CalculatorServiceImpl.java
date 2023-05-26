@@ -31,12 +31,9 @@ public class CalculatorServiceImpl implements CalculatorService{
     public String divide(int n1, int n2) {
         if (n1 == 0 || n2 == 0) {
             return n1 + " / " + n2 + " = 0 ";
-        }
-        else {
+        } else {
             return n1 + " / " + n2 + " = " + (n1 / n2);
         }
 
-
     }
-}
-/*/calculator/minus?num1=5&num2=5 */
+    }
